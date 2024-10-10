@@ -141,3 +141,12 @@ HTTP Interceptor: Tests the attachment of the JWT token to requests.
 Auth and Games services: Validates CRUD operations.
 NgRx actions and reducers: Ensures they function as expected.
 
+# Running the Application
+To run the application, follow these steps:
+
+* Ensure you have Node.js and Angular CLI installed on your machine.
+* Navigate to the project directory:cd gameZone
+* Install dependencies:npm install
+* Start the application:ng serve
+* Open your web browser and navigate to http://localhost:4200.
+

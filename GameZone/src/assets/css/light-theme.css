@@ -1,0 +1,110 @@
+.light_theme .left_sidebar ul li a{
+  color: #000;
+}
+.light_theme .left_sidebar .sidebar ul li:hover {
+  background-color: #fff;
+}
+body.light_theme { 
+  background-color: #fff;
+}
+.light_theme .main_footer .footer_headding {  
+    background: linear-gradient(90deg, rgb(225 225 225) 0%, rgba(106, 106, 106, 0) 100%);
+}
+.light_theme  .footer_btn a {
+  background-color: #d0d1d1;
+}
+.light_theme .scoial_link a {
+  background-color: #d0d1d1;
+}
+.light_theme .footer_btn a:hover {
+  background-color: var(--primary2-color);
+  color: var(--text-light);
+}
+.light_theme .main_footer ul li a{
+  position: relative;
+}
+.light_theme .main_footer ul li a:hover{
+  color: #12bc9d;
+}
+.light_theme .left_sidebar ul li a { 
+  border-bottom: 1px solid #e5e5e5; 
+}
+
+/* inplay page css start */
+.light_theme .sport_tabs a {
+  background-color:#d3d2d2;
+  color: var(--gray);
+ 
+}
+.light_theme .team_details a {  
+  color: var(--gray); 
+}
+.light_theme .game_starttime {  
+  color: var(--gray);  
+}
+.light_theme .sport_tabs a:hover, .light_theme .sport_tabs a.active {
+  background-color: var(--primary-color);
+  color: var(--yellow-color);
+}
+.light_theme .game_status_details span {
+  color: var(--gray);
+}
+.light_theme .game_status_details span svg{
+  fill: var(--gray);
+}
+.light_theme .tabel_header {
+  background-color: var(--tableheader);  
+}
+/* inplay page css end */
+
+/* sport details page css start */
+.light_theme .team_name {
+  color: var(--text-dark);
+}
+.light_theme .details_sccore span{
+  color: var(--gray);
+}
+.light_theme .details_sccore   span {
+ color: var(--gray1);
+}
+.light_theme .team_score_details_row .dis_block  span{
+  color: var(--text-dark);
+}
+.light_theme .max_coin{
+  color: var(--text-dark);
+  font-weight: 400;
+}
+.light_theme .sport_bet_table {
+  background-color: var(--gray6);
+  border: 2px solid #dcdbdb;
+}
+/* sport details page css end */
+
+/* activity log page css start */
+.light_theme .report-box {
+  background-color: var(--bg-white);
+}
+.light_theme .report-container { 
+  color: var(--text-dark);
+}
+.light_theme .report-table .table { 
+  color: var(--text-dark);
+}
+.light_theme .report-table .table-hover>tbody>tr:hover>* {
+  color: var(--text-dark);
+}
+/* activity log page css start */
+
+
+/* current-bets page css start */
+.light_theme .casino-report-tabs .nav-tabs .nav-item .nav-link.active {
+  color: var(--text-dark);
+  border-bottom: 2px solid var(--text-dark); 
+}
+.casino-report-tabs .nav-tabs .nav-link {
+  color: var(--text-dark);
+}
+/* current-bets page css end */
+
+
+

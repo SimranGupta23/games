@@ -1,0 +1,7 @@
+<div class="image-gallery">
+    <h1>Game Image Gallery</h1>
+    <div class="image-container">
+        <img *ngFor="let image of images" [ngSrc]="image.url" [alt]="image.alt" loading="lazy" width="400" height="300"
+            class="game-image" />
+    </div>
+</div>

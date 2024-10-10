@@ -1,0 +1,17 @@
+.image-gallery {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game-image {
+    margin: 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
